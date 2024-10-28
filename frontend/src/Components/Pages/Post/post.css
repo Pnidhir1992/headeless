@@ -1,0 +1,50 @@
+.container{
+    margin: 0px auto;
+    max-width: 1280px;
+}
+
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    width: 100%;
+    margin-inline: auto;
+  }
+  
+  .container-card {
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background-clip: padding-box;
+    border-radius: 45px;
+    padding: 40px;
+  }
+  
+  .card-title,
+  .card-description {
+    font-weight: 600;
+    color: white;
+  }
+  
+  .card-title {
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 8px;
+    letter-spacing: -0.02em;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    line-height: 32px;
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+  
+  .bg-green-box::after {
+    background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
+  }
+  
+
+  
